@@ -1,0 +1,65 @@
+/* Контейнер форми */
+.contact-form {
+    background-color: #ffffff;
+    padding: 40px;
+    border-radius: 12px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05);
+    max-width: 450px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Групування елементів */
+.form-group {
+    margin-bottom: 20px;
+}
+
+/* Стилі заголовків (Labels) */
+.form-label {
+    display: block;
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: #2e2f42;
+}
+
+/* Поля вводу та textarea */
+input[type="email"],
+textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #d1d5db;
+    border-radius: 6px;
+    font-size: 16px;
+    box-sizing: border-box;
+    /* Щоб padding не розширював ширину */
+    transition: border-color 0.2s;
+    outline: none;
+}
+
+input:focus,
+textarea:focus {
+    border-color: #4f7cf2;
+}
+
+/* Кнопка */
+.submit-btn {
+    background-color: #4f7cf2;
+    color: white;
+    padding: 12px 28px;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background-color 0.2s;
+}
+
+.submit-btn:hover {
+    background-color: #3b66d9;
+}
+
+.submit-btn:active {
+    transform: translateY(1px);
+}
